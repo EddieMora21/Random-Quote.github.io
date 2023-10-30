@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: #111729;
+    font-family: 'Outfit', sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.infoapi-conteiner {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #20293A;
+    width: 99vh;
+    height: 40vh;
+    flex-direction: column;
+    padding-left: 11vh;
+    border-radius: 10px;
+
+}
+
+.infoapi-conteiner h2{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1rem;
+    padding-right: 10vh;
+}
+
+.description-Ouote{
+    display: flex;
+    color: #6466E9;
+    padding-right: 10vh;
+}
+
+.description-Ouote p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px;
+    font-size: 0.625rem;
+}
+
+.img-conteiner{
+    display: flex;
+    position: absolute;
+    width: 107vh;
+    height: 39.6vh;
+    z-index: 1;
+    padding-left: 10vh;
+}
+
+.img-conteiner img{
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#TEXT{
+    color: #4A5567;
+    font-size: 1.5rem;
+    padding-right: 10vh;
+}
+
+.contrlos-conteiner {
+    display: flex;
+    position: absolute;
+    bottom:17vh;
+    z-index: 1;
+}
+.contrlos-conteiner button{
+    background-color: #111729;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.contrlos-conteiner img{
+    width: 5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border:solid 1px ;
+    border-color: #4A5567;
+    padding: 10px;
+    
+}
+
+.contrlos-conteiner button:nth-child(1) img{
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+
+.contrlos-conteiner button:nth-child(2) img{
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+
